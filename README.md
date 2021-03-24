@@ -1,6 +1,2 @@
 # Node-Api
-### Express & Mongo
-
-`npm install`
-<br/> `npm start`
-<br/><br/> Pensez à bien raccorder votre BD
+Simple API sans front et qui implément un CRUD sur une base de donnée mongoDB
