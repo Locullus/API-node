@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const ObjectID = require('mongoose').Types.ObjectId;
+const ObjectID = require('mongoose').Types.ObjectId;    // permet de récupérer l'id de chaque objet dans la base de donnée. Utile pour la méthode put (update)
 
 const { PostsModel } = require('../models/postsModel');
 
